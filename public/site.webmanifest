@@ -1,0 +1,26 @@
+{
+  "name": "Sungenesis Solar System",
+  "short_name": "Sungenesis",
+  "description": "Professional solar panel installation and renewable energy solutions in Nagpur",
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#FFA500",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/LOGO.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/LOGO.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "energy", "solar", "renewable", "electricity"]
+}

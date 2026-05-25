@@ -1,4 +1,24 @@
+# Allow all bots
 User-agent: *
 Allow: /
+Disallow: /node_modules/
 
-Sitemap: https://www.sungenesis.com/sitemap.xml
+# Specific rules for common bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl delay (optional - set to 1 second)
+Crawl-delay: 1
+
+# Request rate (optional)
+Request-rate: 1/1s
+
+# Sitemaps
+Sitemap: https://www.sungenesis.live/sitemap.xml
+Sitemap: https://www.sungenesis.live/sitemap-index.xml

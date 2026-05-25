@@ -22,3 +22,5 @@ dist-ssr
 *.sw?
 .env
 .bolt
+
+SEO_OPTIMIZATION.md
